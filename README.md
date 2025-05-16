@@ -1,13 +1,13 @@
 # netflix_sql_project
 # Netflix Movies and TV Shows Data Analysis using SQL
 
-![Netflix Logo]()
+![Netflix Logo](https://github.com/sheetalgat-hubGit/netflix_sql_project/blob/main/logo%20(1).png)
 
 
-📊 Overview
+## 📊 Overview
 This project offers a detailed exploratory analysis of Netflix's catalog of movies and TV shows using SQL. By leveraging structured queries, we aim to extract critical insights related to content distribution, audience targeting, regional trends, and content characteristics. This analysis supports strategic decisions regarding platform offerings, audience segmentation, and content planning.
 
-🎯 Objectives
+## 🎯 Objectives
 Examine how content is divided between movies and TV shows.
 
 Determine the most frequent content ratings across both formats.
@@ -18,12 +18,12 @@ Categorize content based on patterns found in genres, descriptions, and keywords
 
 Uncover creator-specific trends and actor frequency within content from key countries.
 
-📁 Dataset
+## 📁 Dataset
 The dataset used is sourced from Kaggle:
 
 Netflix Movies and TV Shows Dataset – Kaggle
 
-Schema
+## Schema
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
 (
@@ -40,7 +40,7 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
-Business Problems and Solutions
+## Business Problems and Solutions
 1. Count the Number of Movies vs TV Shows
 SELECT 
     type,
@@ -197,7 +197,7 @@ FROM (
 GROUP BY category;
 
 
-🧠 Business Problems & SQL Solutions
+## 🧠 Business Problems & SQL Solutions
 
 ✅ Key Insights and Takeaways
 1. Content Mix: The platform features a rich blend of both movies and TV shows, with a slightly higher presence of one type depending on region and timeframe.
