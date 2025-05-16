@@ -20,8 +20,7 @@ Uncover creator-specific trends and actor frequency within content from key coun
 
 ## 📁 Dataset
 The dataset used is sourced from Kaggle:
-
-Netflix Movies and TV Shows Dataset – Kaggle
+[Netflix Movies and TV Shows Dataset – Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 ## Schema
 DROP TABLE IF EXISTS netflix;
